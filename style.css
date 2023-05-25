@@ -30,6 +30,12 @@ button {
     color: #FDFDFD;
     background-color: #AC485A;
 }
+button:hover{
+    background-color: #8d3848;
+}
+button:active{
+    background-color: rgb(73, 38, 48);
+}
 
 input,button {
     width:80%;
