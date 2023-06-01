@@ -2,7 +2,8 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Rubik', sans-serif;
-    height: 40vh;
+    height: 90vh;
+    background-color: #EEF0F4;
    
 }
 
@@ -10,10 +11,31 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 60vh;
     max-width: 320px;
     margin: 30px auto;
+    border-radius: 20px;
+    border: 3px rgb(12, 12, 11) solid;
 }
 
+.container ul{
+    padding: 0 .5em;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    list-style: none;
+}
+
+li{
+    text-align: center;
+    padding:.6em;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    background-color: rgb(252, 252, 253);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    flex-grow:1;
+}
 .logo{
     height:10em;
     width: 10em;
